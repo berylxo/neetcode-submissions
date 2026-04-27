@@ -17,3 +17,6 @@ class Solution:
             return True
         else:
             return False
+    # Build two hash maps → O(N + M) time
+    # compare them -> O(K) where K in the len of unique characters
+    # space compexity - 2 * O(K) for the two maps
